@@ -1,0 +1,17 @@
+
+header{
+    width: 50%;
+}
+h1{
+    border: 2px dashed red;
+    width: 50%; /* takes up 50 percent of parent width which is header, that means, header is half of parent, h1 is one fourth of parent.x`*/
+}
+
+main{
+    font-size: 2rem;
+}
+
+p{
+    /* font-size: 24px; we must avoid using absolute values for font setting. */
+    font-size: 2rem; /* rem takes the data from root element whereas am takes data from parent elemeny.*/
+}
