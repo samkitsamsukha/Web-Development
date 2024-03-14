@@ -1,2 +1,0 @@
-Hello World,
-I am reading from input.txt file
