@@ -1,10 +1,17 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
+const img = "https://picsum.photos/200/300?grayscale"
+
+ReactDOM.render(
+  <div>
+    <h1 className='heading' contentEditable='true' spellCheck='true'>Heading</h1>
+    <div>
+      <img src={img} alt='sample pic'/>
+      <img src={img} alt='sample pic'/>
+      <img src={img} alt='sample pic'/>
+    </div>
+  </div>,
+  document.getElementById('root')
+);
+
