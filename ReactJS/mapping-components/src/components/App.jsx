@@ -5,6 +5,7 @@ import emojipedia from "../emojipedia.js";
 
 function createCard(deets) {
   return <Term 
+    key = {deets.id}
     emoji = {deets.emoji}
     name = {deets.name}
     meaning = {deets.meaning}
