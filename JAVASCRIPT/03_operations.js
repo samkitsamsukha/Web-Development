@@ -33,3 +33,22 @@ console.log(true ^ true) //0
 //Bitwise Operators
 console.log(10 & 6) //2
 console.log(10 | 6) //14
+
+console.log("1" + 2) //12
+console.log(1 + "2") //12
+console.log("1" + 2 + 2) //122
+console.log(1 + 2 + "2") //32
+
+console.log(+true) //1
+
+console.log("2" > 1) //true
+console.log("02" > 1) //true
+
+console.log(null > 0) //false
+console.log(null == 0) //false
+console.log(null >= 0) //true
+
+console.log(undefined == 0) //false
+console.log(undefined > 0) //false
+console.log(undefined < 0) //true
+

@@ -40,3 +40,33 @@ var person = {
 }
 console.log(person)
 console.log(typeof person)
+
+const score = "33"
+console.log(typeof score)
+let valueInNumber = Number(score)
+console.log(valueInNumber) //33
+console.log(typeof valueInNumber) //string
+
+/**
+ * if score is 
+ * true/false -> 0, 1
+ * "33abc" -> NaN
+ * "33" -> 33
+ * null -> 0
+ */
+
+let isLoggedIn = 1
+let booleanIsLoggedIn = Boolean(isLoggedIn)
+console.log(isLoggedIn) //1
+console.log(booleanIsLoggedIn) //true
+
+/**
+ * 1 -> true
+ * 0 -> false
+ * "" -> false
+ * "samkit" -> true
+ */
+
+let num = 33;
+let snum = String(num)
+console.log(typeof snum) //string
