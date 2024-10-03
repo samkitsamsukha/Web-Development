@@ -1,0 +1,13 @@
+var names = [];
+names.push("Samkit");
+console.log(names[0]);
+var marks = [];
+marks.push(90);
+marks.push(92);
+marks.push(94);
+var names2 = [];
+var db = [];
+db.push({ name: 'Samkit', isActive: true });
+console.log(db[0]);
+var MLmodel = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
+console.log(MLmodel);
